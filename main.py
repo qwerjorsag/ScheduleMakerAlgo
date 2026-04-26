@@ -69,6 +69,39 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum solver runtime in seconds.",
     )
 
+    serve_parser = subparsers.add_parser(
+        "serve",
+        help="Serve the latest rendered timetable with drag-and-drop editing.",
+    )
+    serve_parser.add_argument(
+        "--run-dir",
+        type=Path,
+        default=None,
+        help="Rendered output directory containing schedule.json and university_dataset.json.",
+    )
+    serve_parser.add_argument(
+        "--host",
+        default="127.0.0.1",
+        help="Host interface for the local timetable editor.",
+    )
+    serve_parser.add_argument(
+        "--port",
+        type=int,
+        default=8050,
+        help="TCP port for the local timetable editor.",
+    )
+
+    final_control_parser = subparsers.add_parser(
+        "final-control",
+        help="Run final consistency checks on a rendered timetable output.",
+    )
+    final_control_parser.add_argument(
+        "--run-dir",
+        type=Path,
+        default=None,
+        help="Rendered output directory containing schedule.json.",
+    )
+
     return parser
 
 
@@ -168,6 +201,20 @@ def run_demo(args: argparse.Namespace) -> None:
     print(f"Rooms: {artifacts.room_html}")
 
 
+def run_serve(args: argparse.Namespace) -> None:
+    from timetable.server import serve_output_dir
+
+    output_dir = resolve_output_dir(args.run_dir)
+    serve_output_dir(output_dir, host=args.host, port=args.port)
+
+
+def run_final_control(args: argparse.Namespace) -> None:
+    from timetable.final_control import run_final_control as run_control
+
+    output_dir = resolve_output_dir(args.run_dir)
+    raise SystemExit(run_control(output_dir))
+
+
 def print_dataset_stats(dataset: UniversityDataset) -> None:
     print(
         "Generated "
@@ -225,6 +272,22 @@ def resolve_dataset_path(requested_path: Path | None) -> Path:
     )
 
 
+def resolve_output_dir(requested_path: Path | None) -> Path:
+    if requested_path is not None:
+        return requested_path
+
+    candidates = sorted(
+        (path.parent for path in Path("outputs").glob("*/schedule.json")),
+        key=lambda item: item.stat().st_mtime,
+        reverse=True,
+    )
+    if candidates:
+        return candidates[0]
+    raise SystemExit(
+        "No rendered output found under outputs. Run 'python main.py demo' or 'python main.py solve' first."
+    )
+
+
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args(["demo"] if len(sys.argv) == 1 else None)
@@ -236,6 +299,10 @@ def main() -> None:
         run_solve(args)
     elif command == "demo":
         run_demo(args)
+    elif command == "serve":
+        run_serve(args)
+    elif command == "final-control":
+        run_final_control(args)
     else:
         parser.error(f"Unsupported command: {command}")
 

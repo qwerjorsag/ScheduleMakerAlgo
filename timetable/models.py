@@ -190,6 +190,23 @@ class ScheduleResult:
     def save(self, path: Path) -> None:
         path.write_text(json.dumps(self.to_dict(), indent=2), encoding="utf-8")
 
+    @classmethod
+    def from_dict(cls, payload: dict[str, Any]) -> ScheduleResult:
+        return cls(
+            sessions=[ScheduledSession(**session) for session in payload["sessions"]],
+            objective_value=payload["objective_value"],
+            teacher_days=payload["teacher_days"],
+            teacher_single_days=payload["teacher_single_days"],
+            teacher_double_block_days=payload["teacher_double_block_days"],
+            group_days=payload["group_days"],
+            late_sessions=payload["late_sessions"],
+            status=payload["status"],
+        )
+
+    @classmethod
+    def load(cls, path: Path) -> ScheduleResult:
+        return cls.from_dict(json.loads(path.read_text(encoding="utf-8")))
+
 
 @dataclass
 class UniversityDataset:
