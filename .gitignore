@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+.idea/
+
+config/secret_key
+config/logs/
+config/cache/
+config/custom-covers/
+
+outputs/
