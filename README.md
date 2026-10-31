@@ -16,6 +16,51 @@ Hard constraints include:
 
 The solver also tries to respect preferred teaching days, preferred weekly teaching-day limits, shorter teacher days, and earlier time blocks. These are optimization preferences; the exact result can vary with solver time and machine resources.
 
+## Tuning optimization settings
+
+The solver's adjustable settings are defined by `SolveOptions` in `timetable/solver.py`. `algorithm.py` currently sets only the time limit, so edit its `SolveOptions(...)` call to customize the other values for a particular school. For example:
+
+```python
+result = solve_timetable(
+    dataset,
+    SolveOptions(
+        time_limit_seconds=args.time_limit,
+        teacher_day_weight=1000,
+        teacher_excess_day_weight=420,
+        teacher_single_day_weight=650,
+        teacher_double_block_day_weight=180,
+        teacher_nonpreferred_day_weight=140,
+        group_day_weight=12,
+        early_block_weight=3,
+        late_block_weight=8,
+        random_seed=17,
+        num_workers=8,
+        log_search_progress=False,
+    ),
+)
+```
+
+Weights are relative penalties: increasing one makes the solver prioritize avoiding that outcome more strongly compared with outcomes carrying lower weights. They do not guarantee a preference if the constraints or other weighted preferences make it impractical. Start with small changes to one or two weights, generate a schedule, and compare the result and `objective_value` before making further changes. An objective value is useful when comparing runs with the same data and weights; it is not directly comparable after changing weights.
+
+| Setting | Default | Effect |
+| --- | ---: | --- |
+| `teacher_day_weight` | 1000 | Penalizes each day on which a teacher has at least one session. Increase to concentrate each teacher's sessions into fewer weekdays. |
+| `teacher_excess_day_weight` | 420 | Penalizes teaching days above `preferred_max_teaching_days` in `teachers.json`. This is a soft preference; the absolute limit remains hard. |
+| `teacher_single_day_weight` | 650 | Penalizes a teacher having exactly one session on a weekday. |
+| `teacher_double_block_day_weight` | 180 | Penalizes a teacher having exactly two sessions on a weekday. |
+| `teacher_nonpreferred_day_weight` | 140 | Penalizes assigning a session on a weekday absent from that teacher's `preferred_day_codes`. |
+| `group_day_weight` | 12 | Penalizes each weekday on which a study group has classes. Increase to favor fewer school days for groups. |
+| `early_block_weight` | 3 | Penalizes the first time block. Set to `0` if early starts should carry no penalty; raise it to discourage them. |
+| `late_block_weight` | 8 | Penalizes blocks after the fifth block, with a larger penalty for each later block. Increase to avoid late classes. |
+| `time_limit_seconds` | 60 in `SolveOptions` | Solver time budget. The command-line script overrides this with `--time-limit` and defaults to 300 seconds. More time gives the solver more opportunity to find and improve a solution. |
+| `random_seed` | 17 | Seed used by CP-SAT. It can affect search order and the schedule found. Keep it fixed for more repeatable runs with the same solver version and machine setup. |
+| `num_workers` | 8 | Number of CP-SAT search workers. More workers may improve search speed on a machine with available CPU cores, but consume more resources and can make outcomes less repeatable. |
+| `log_search_progress` | `false` | Set to `true` to print CP-SAT search diagnostics to the terminal. |
+
+Teacher record fields also affect scheduling. `preferred_day_codes` and `preferred_max_teaching_days` feed soft penalties; `unavailable_slot_ids`, `avoid_single_block_days`, and `absolute_max_teaching_days` impose hard restrictions. A hard restriction can make the problem infeasible, regardless of preference weights. Relax it in the relevant teacher record only if the school rules allow that change.
+
+The solver optimizes in two stages. First it emphasizes the number of teacher days and group days. Then it keeps the best first-stage value and optimizes the remaining teacher-day preferences and time-of-day penalties. Therefore, weights are most meaningful within their stage; a very large second-stage weight cannot override a better first-stage objective. If a school needs to change that priority between objectives, the optimization logic in `timetable/solver.py` must also be adjusted.
+
 ## Requirements
 
 - Python 3.12 or newer
