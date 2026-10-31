@@ -5,9 +5,4 @@ schedule.json
 
 .idea/
 
-config/secret_key
-config/logs/
-config/cache/
-config/custom-covers/
-
 outputs/
