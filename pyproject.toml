@@ -1,7 +1,7 @@
 [project]
-name = "pythonproject"
+name = "schedule-maker-algo"
 version = "0.1.0"
-description = "Large university timetable generator with dummy data and CP-SAT scheduling."
+description = "Standalone school timetable optimizer using CP-SAT."
 requires-python = ">=3.12"
 dependencies = [
     "ortools>=9.15.6755",

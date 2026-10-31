@@ -1,0 +1,533 @@
+[
+  {
+    "id": "LH-01",
+    "name": "Lecture Hall 1",
+    "capacity": 180,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-02",
+    "name": "Lecture Hall 2",
+    "capacity": 200,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-03",
+    "name": "Lecture Hall 3",
+    "capacity": 220,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-04",
+    "name": "Lecture Hall 4",
+    "capacity": 240,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-05",
+    "name": "Lecture Hall 5",
+    "capacity": 260,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-06",
+    "name": "Lecture Hall 6",
+    "capacity": 280,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-07",
+    "name": "Lecture Hall 7",
+    "capacity": 300,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "LH-08",
+    "name": "Lecture Hall 8",
+    "capacity": 320,
+    "building": "Central Campus",
+    "features": [
+      "lecture_hall"
+    ]
+  },
+  {
+    "id": "SR-01",
+    "name": "Seminar Room 1",
+    "capacity": 30,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-02",
+    "name": "Seminar Room 2",
+    "capacity": 30,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-03",
+    "name": "Seminar Room 3",
+    "capacity": 31,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-04",
+    "name": "Seminar Room 4",
+    "capacity": 32,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-05",
+    "name": "Seminar Room 5",
+    "capacity": 33,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-06",
+    "name": "Seminar Room 6",
+    "capacity": 34,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-07",
+    "name": "Seminar Room 7",
+    "capacity": 35,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-08",
+    "name": "Seminar Room 8",
+    "capacity": 36,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-09",
+    "name": "Seminar Room 9",
+    "capacity": 37,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-10",
+    "name": "Seminar Room 10",
+    "capacity": 38,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-11",
+    "name": "Seminar Room 11",
+    "capacity": 39,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-12",
+    "name": "Seminar Room 12",
+    "capacity": 40,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-13",
+    "name": "Seminar Room 13",
+    "capacity": 41,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "SR-14",
+    "name": "Seminar Room 14",
+    "capacity": 42,
+    "building": "North Wing",
+    "features": [
+      "seminar_room"
+    ]
+  },
+  {
+    "id": "CL-01",
+    "name": "Computer Lab 1",
+    "capacity": 22,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-02",
+    "name": "Computer Lab 2",
+    "capacity": 22,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-03",
+    "name": "Computer Lab 3",
+    "capacity": 23,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-04",
+    "name": "Computer Lab 4",
+    "capacity": 24,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-05",
+    "name": "Computer Lab 5",
+    "capacity": 24,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-06",
+    "name": "Computer Lab 6",
+    "capacity": 25,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-07",
+    "name": "Computer Lab 7",
+    "capacity": 26,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-08",
+    "name": "Computer Lab 8",
+    "capacity": 27,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-09",
+    "name": "Computer Lab 9",
+    "capacity": 27,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-10",
+    "name": "Computer Lab 10",
+    "capacity": 28,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-11",
+    "name": "Computer Lab 11",
+    "capacity": 29,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "CL-12",
+    "name": "Computer Lab 12",
+    "capacity": 30,
+    "building": "Digital Center",
+    "features": [
+      "computer_lab"
+    ]
+  },
+  {
+    "id": "PR-01",
+    "name": "Project Room 1",
+    "capacity": 20,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-02",
+    "name": "Project Room 2",
+    "capacity": 21,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-03",
+    "name": "Project Room 3",
+    "capacity": 22,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-04",
+    "name": "Project Room 4",
+    "capacity": 23,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-05",
+    "name": "Project Room 5",
+    "capacity": 24,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-06",
+    "name": "Project Room 6",
+    "capacity": 25,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-07",
+    "name": "Project Room 7",
+    "capacity": 26,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "PR-08",
+    "name": "Project Room 8",
+    "capacity": 28,
+    "building": "Innovation Hub",
+    "features": [
+      "project_room"
+    ]
+  },
+  {
+    "id": "EL-01",
+    "name": "Electronics Lab 1",
+    "capacity": 18,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "EL-02",
+    "name": "Electronics Lab 2",
+    "capacity": 19,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "EL-03",
+    "name": "Electronics Lab 3",
+    "capacity": 20,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "EL-04",
+    "name": "Electronics Lab 4",
+    "capacity": 21,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "EL-05",
+    "name": "Electronics Lab 5",
+    "capacity": 22,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "EL-06",
+    "name": "Electronics Lab 6",
+    "capacity": 24,
+    "building": "Engineering Hall",
+    "features": [
+      "electronics_lab"
+    ]
+  },
+  {
+    "id": "ML-01",
+    "name": "Mechanics Lab 1",
+    "capacity": 18,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "ML-02",
+    "name": "Mechanics Lab 2",
+    "capacity": 19,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "ML-03",
+    "name": "Mechanics Lab 3",
+    "capacity": 20,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "ML-04",
+    "name": "Mechanics Lab 4",
+    "capacity": 21,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "ML-05",
+    "name": "Mechanics Lab 5",
+    "capacity": 22,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "ML-06",
+    "name": "Mechanics Lab 6",
+    "capacity": 24,
+    "building": "Mechanical Hall",
+    "features": [
+      "mechanics_lab"
+    ]
+  },
+  {
+    "id": "BL-01",
+    "name": "Biotech Lab 1",
+    "capacity": 18,
+    "building": "Life Science Center",
+    "features": [
+      "biotech_lab"
+    ]
+  },
+  {
+    "id": "BL-02",
+    "name": "Biotech Lab 2",
+    "capacity": 19,
+    "building": "Life Science Center",
+    "features": [
+      "biotech_lab"
+    ]
+  },
+  {
+    "id": "BL-03",
+    "name": "Biotech Lab 3",
+    "capacity": 21,
+    "building": "Life Science Center",
+    "features": [
+      "biotech_lab"
+    ]
+  },
+  {
+    "id": "BL-04",
+    "name": "Biotech Lab 4",
+    "capacity": 22,
+    "building": "Life Science Center",
+    "features": [
+      "biotech_lab"
+    ]
+  },
+  {
+    "id": "BL-05",
+    "name": "Biotech Lab 5",
+    "capacity": 24,
+    "building": "Life Science Center",
+    "features": [
+      "biotech_lab"
+    ]
+  }
+]

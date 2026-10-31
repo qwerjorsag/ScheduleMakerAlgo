@@ -1,0 +1,3457 @@
+[
+  {
+    "id": "CS-Y1-01",
+    "code": "CS101",
+    "name": "Programming Fundamentals",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "cohort_id": "CS-Y1",
+    "student_count": 186,
+    "lecture_teacher_id": "CS-PRO-01",
+    "practical_teacher_by_group": {
+      "CS-Y1-G1": "CS-INS-01",
+      "CS-Y1-G2": "CS-INS-02",
+      "CS-Y1-G3": "CS-INS-03",
+      "CS-Y1-G4": "CS-INS-04",
+      "CS-Y1-G5": "CS-INS-05",
+      "CS-Y1-G6": "CS-INS-06",
+      "CS-Y1-G7": "CS-PRO-02",
+      "CS-Y1-G8": "CS-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "CS-Y1-02",
+    "code": "CS102",
+    "name": "Discrete Mathematics",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "cohort_id": "CS-Y1",
+    "student_count": 186,
+    "lecture_teacher_id": "CS-PRO-04",
+    "practical_teacher_by_group": {
+      "CS-Y1-G1": "CS-PRO-05",
+      "CS-Y1-G2": "CS-INS-01",
+      "CS-Y1-G3": "CS-INS-02",
+      "CS-Y1-G4": "CS-INS-03",
+      "CS-Y1-G5": "CS-INS-04",
+      "CS-Y1-G6": "CS-INS-05",
+      "CS-Y1-G7": "CS-INS-06",
+      "CS-Y1-G8": "CS-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 32
+  },
+  {
+    "id": "CS-Y1-03",
+    "code": "CS103",
+    "name": "Computer Systems Basics",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "cohort_id": "CS-Y1",
+    "student_count": 186,
+    "lecture_teacher_id": "CS-PRO-03",
+    "practical_teacher_by_group": {
+      "CS-Y1-G1": "CS-PRO-05",
+      "CS-Y1-G2": "CS-INS-01",
+      "CS-Y1-G3": "CS-INS-02",
+      "CS-Y1-G4": "CS-INS-03",
+      "CS-Y1-G5": "CS-INS-04",
+      "CS-Y1-G6": "CS-INS-05",
+      "CS-Y1-G7": "CS-INS-06",
+      "CS-Y1-G8": "CS-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y1-04",
+    "code": "CS104",
+    "name": "Database Foundations",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "cohort_id": "CS-Y1",
+    "student_count": 186,
+    "lecture_teacher_id": "CS-PRO-05",
+    "practical_teacher_by_group": {
+      "CS-Y1-G1": "CS-INS-01",
+      "CS-Y1-G2": "CS-INS-02",
+      "CS-Y1-G3": "CS-INS-03",
+      "CS-Y1-G4": "CS-INS-04",
+      "CS-Y1-G5": "CS-INS-05",
+      "CS-Y1-G6": "CS-INS-06",
+      "CS-Y1-G7": "CS-PRO-02",
+      "CS-Y1-G8": "CS-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 26
+  },
+  {
+    "id": "CS-Y1-05",
+    "code": "CS105",
+    "name": "Web Engineering Basics",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "cohort_id": "CS-Y1",
+    "student_count": 186,
+    "lecture_teacher_id": "CS-PRO-04",
+    "practical_teacher_by_group": {
+      "CS-Y1-G1": "CS-INS-01",
+      "CS-Y1-G2": "CS-INS-02",
+      "CS-Y1-G3": "CS-INS-03",
+      "CS-Y1-G4": "CS-INS-04",
+      "CS-Y1-G5": "CS-INS-05",
+      "CS-Y1-G6": "CS-INS-06",
+      "CS-Y1-G7": "CS-PRO-02",
+      "CS-Y1-G8": "CS-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 26
+  },
+  {
+    "id": "CS-Y2-01",
+    "code": "CS201",
+    "name": "Algorithms and Complexity",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "cohort_id": "CS-Y2",
+    "student_count": 178,
+    "lecture_teacher_id": "CS-PRO-03",
+    "practical_teacher_by_group": {
+      "CS-Y2-G1": "CS-INS-01",
+      "CS-Y2-G2": "CS-INS-02",
+      "CS-Y2-G3": "CS-INS-03",
+      "CS-Y2-G4": "CS-INS-04",
+      "CS-Y2-G5": "CS-INS-05",
+      "CS-Y2-G6": "CS-INS-06",
+      "CS-Y2-G7": "CS-PRO-02",
+      "CS-Y2-G8": "CS-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 30
+  },
+  {
+    "id": "CS-Y2-02",
+    "code": "CS202",
+    "name": "Operating Systems",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "cohort_id": "CS-Y2",
+    "student_count": 178,
+    "lecture_teacher_id": "CS-PRO-05",
+    "practical_teacher_by_group": {
+      "CS-Y2-G1": "CS-INS-01",
+      "CS-Y2-G2": "CS-INS-02",
+      "CS-Y2-G3": "CS-INS-03",
+      "CS-Y2-G4": "CS-INS-04",
+      "CS-Y2-G5": "CS-INS-05",
+      "CS-Y2-G6": "CS-INS-06",
+      "CS-Y2-G7": "CS-PRO-02",
+      "CS-Y2-G8": "CS-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y2-03",
+    "code": "CS203",
+    "name": "Network Architectures",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "cohort_id": "CS-Y2",
+    "student_count": 178,
+    "lecture_teacher_id": "CS-PRO-04",
+    "practical_teacher_by_group": {
+      "CS-Y2-G1": "CS-PRO-03",
+      "CS-Y2-G2": "CS-INS-01",
+      "CS-Y2-G3": "CS-INS-02",
+      "CS-Y2-G4": "CS-INS-03",
+      "CS-Y2-G5": "CS-INS-04",
+      "CS-Y2-G6": "CS-INS-05",
+      "CS-Y2-G7": "CS-INS-06",
+      "CS-Y2-G8": "CS-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y2-04",
+    "code": "CS204",
+    "name": "Software Design Studio",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "cohort_id": "CS-Y2",
+    "student_count": 178,
+    "lecture_teacher_id": "CS-PRO-01",
+    "practical_teacher_by_group": {
+      "CS-Y2-G1": "CS-PRO-03",
+      "CS-Y2-G2": "CS-PRO-05",
+      "CS-Y2-G3": "CS-INS-01",
+      "CS-Y2-G4": "CS-INS-02",
+      "CS-Y2-G5": "CS-INS-03",
+      "CS-Y2-G6": "CS-INS-04",
+      "CS-Y2-G7": "CS-INS-05",
+      "CS-Y2-G8": "CS-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y2-05",
+    "code": "CS205",
+    "name": "Data Structures and Performance",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "cohort_id": "CS-Y2",
+    "student_count": 178,
+    "lecture_teacher_id": "CS-PRO-02",
+    "practical_teacher_by_group": {
+      "CS-Y2-G1": "CS-PRO-04",
+      "CS-Y2-G2": "CS-PRO-03",
+      "CS-Y2-G3": "CS-PRO-05",
+      "CS-Y2-G4": "CS-INS-01",
+      "CS-Y2-G5": "CS-INS-02",
+      "CS-Y2-G6": "CS-INS-03",
+      "CS-Y2-G7": "CS-INS-04",
+      "CS-Y2-G8": "CS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y3-01",
+    "code": "CS301",
+    "name": "Distributed Systems",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "cohort_id": "CS-Y3",
+    "student_count": 149,
+    "lecture_teacher_id": "CS-PRO-01",
+    "practical_teacher_by_group": {
+      "CS-Y3-G1": "CS-INS-06",
+      "CS-Y3-G2": "CS-PRO-04",
+      "CS-Y3-G3": "CS-PRO-02",
+      "CS-Y3-G4": "CS-PRO-03",
+      "CS-Y3-G5": "CS-PRO-05",
+      "CS-Y3-G6": "CS-INS-01",
+      "CS-Y3-G7": "CS-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y3-02",
+    "code": "CS302",
+    "name": "Machine Learning Fundamentals",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "cohort_id": "CS-Y3",
+    "student_count": 149,
+    "lecture_teacher_id": "CS-PRO-04",
+    "practical_teacher_by_group": {
+      "CS-Y3-G1": "CS-INS-03",
+      "CS-Y3-G2": "CS-INS-04",
+      "CS-Y3-G3": "CS-INS-05",
+      "CS-Y3-G4": "CS-INS-06",
+      "CS-Y3-G5": "CS-INS-03",
+      "CS-Y3-G6": "CS-INS-04",
+      "CS-Y3-G7": "CS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 26
+  },
+  {
+    "id": "CS-Y3-03",
+    "code": "CS303",
+    "name": "Applied Information Security",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "cohort_id": "CS-Y3",
+    "student_count": 149,
+    "lecture_teacher_id": "CS-PRO-02",
+    "practical_teacher_by_group": {
+      "CS-Y3-G1": "CS-INS-06",
+      "CS-Y3-G2": "CS-PRO-03",
+      "CS-Y3-G3": "CS-PRO-05",
+      "CS-Y3-G4": "CS-INS-01",
+      "CS-Y3-G5": "CS-INS-02",
+      "CS-Y3-G6": "CS-INS-03",
+      "CS-Y3-G7": "CS-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y3-04",
+    "code": "CS304",
+    "name": "Cloud Platforms",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "cohort_id": "CS-Y3",
+    "student_count": 149,
+    "lecture_teacher_id": "CS-PRO-01",
+    "practical_teacher_by_group": {
+      "CS-Y3-G1": "CS-INS-05",
+      "CS-Y3-G2": "CS-INS-06",
+      "CS-Y3-G3": "CS-PRO-03",
+      "CS-Y3-G4": "CS-PRO-05",
+      "CS-Y3-G5": "CS-INS-01",
+      "CS-Y3-G6": "CS-INS-02",
+      "CS-Y3-G7": "CS-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CS-Y3-05",
+    "code": "CS305",
+    "name": "Capstone Engineering Studio",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "cohort_id": "CS-Y3",
+    "student_count": 149,
+    "lecture_teacher_id": "CS-PRO-03",
+    "practical_teacher_by_group": {
+      "CS-Y3-G1": "CS-INS-04",
+      "CS-Y3-G2": "CS-INS-05",
+      "CS-Y3-G3": "CS-INS-06",
+      "CS-Y3-G4": "CS-PRO-05",
+      "CS-Y3-G5": "CS-INS-01",
+      "CS-Y3-G6": "CS-INS-02",
+      "CS-Y3-G7": "CS-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "DS-Y1-01",
+    "code": "DS101",
+    "name": "Python for Data Analysis",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "cohort_id": "DS-Y1",
+    "student_count": 171,
+    "lecture_teacher_id": "DS-PRO-01",
+    "practical_teacher_by_group": {
+      "DS-Y1-G1": "DS-INS-01",
+      "DS-Y1-G2": "DS-INS-02",
+      "DS-Y1-G3": "DS-INS-03",
+      "DS-Y1-G4": "DS-INS-04",
+      "DS-Y1-G5": "DS-INS-05",
+      "DS-Y1-G6": "DS-INS-06",
+      "DS-Y1-G7": "DS-PRO-02",
+      "DS-Y1-G8": "DS-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 26
+  },
+  {
+    "id": "DS-Y1-02",
+    "code": "DS102",
+    "name": "Linear Algebra for Analytics",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "cohort_id": "DS-Y1",
+    "student_count": 171,
+    "lecture_teacher_id": "DS-PRO-04",
+    "practical_teacher_by_group": {
+      "DS-Y1-G1": "DS-PRO-05",
+      "DS-Y1-G2": "DS-PRO-05",
+      "DS-Y1-G3": "DS-INS-01",
+      "DS-Y1-G4": "DS-INS-02",
+      "DS-Y1-G5": "DS-INS-03",
+      "DS-Y1-G6": "DS-INS-04",
+      "DS-Y1-G7": "DS-INS-05",
+      "DS-Y1-G8": "DS-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 32
+  },
+  {
+    "id": "DS-Y1-03",
+    "code": "DS103",
+    "name": "Probability and Statistics",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "cohort_id": "DS-Y1",
+    "student_count": 171,
+    "lecture_teacher_id": "DS-PRO-02",
+    "practical_teacher_by_group": {
+      "DS-Y1-G1": "DS-PRO-03",
+      "DS-Y1-G2": "DS-PRO-05",
+      "DS-Y1-G3": "DS-INS-01",
+      "DS-Y1-G4": "DS-INS-02",
+      "DS-Y1-G5": "DS-INS-03",
+      "DS-Y1-G6": "DS-INS-04",
+      "DS-Y1-G7": "DS-INS-05",
+      "DS-Y1-G8": "DS-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 32
+  },
+  {
+    "id": "DS-Y1-04",
+    "code": "DS104",
+    "name": "Data Engineering Basics",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "cohort_id": "DS-Y1",
+    "student_count": 171,
+    "lecture_teacher_id": "DS-PRO-03",
+    "practical_teacher_by_group": {
+      "DS-Y1-G1": "DS-PRO-05",
+      "DS-Y1-G2": "DS-PRO-01",
+      "DS-Y1-G3": "DS-PRO-04",
+      "DS-Y1-G4": "DS-INS-01",
+      "DS-Y1-G5": "DS-INS-02",
+      "DS-Y1-G6": "DS-INS-03",
+      "DS-Y1-G7": "DS-INS-04",
+      "DS-Y1-G8": "DS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y1-05",
+    "code": "DS105",
+    "name": "Business Communication",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "cohort_id": "DS-Y1",
+    "student_count": 171,
+    "lecture_teacher_id": "DS-PRO-05",
+    "practical_teacher_by_group": {
+      "DS-Y1-G1": "DS-INS-06",
+      "DS-Y1-G2": "DS-PRO-01",
+      "DS-Y1-G3": "DS-PRO-04",
+      "DS-Y1-G4": "DS-INS-01",
+      "DS-Y1-G5": "DS-INS-02",
+      "DS-Y1-G6": "DS-INS-03",
+      "DS-Y1-G7": "DS-INS-04",
+      "DS-Y1-G8": "DS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 34
+  },
+  {
+    "id": "DS-Y2-01",
+    "code": "DS201",
+    "name": "Machine Learning Methods",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "cohort_id": "DS-Y2",
+    "student_count": 158,
+    "lecture_teacher_id": "DS-PRO-02",
+    "practical_teacher_by_group": {
+      "DS-Y2-G1": "DS-INS-06",
+      "DS-Y2-G2": "DS-PRO-01",
+      "DS-Y2-G3": "DS-PRO-04",
+      "DS-Y2-G4": "DS-INS-01",
+      "DS-Y2-G5": "DS-INS-02",
+      "DS-Y2-G6": "DS-INS-03",
+      "DS-Y2-G7": "DS-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y2-02",
+    "code": "DS202",
+    "name": "Data Warehousing",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "cohort_id": "DS-Y2",
+    "student_count": 158,
+    "lecture_teacher_id": "DS-PRO-03",
+    "practical_teacher_by_group": {
+      "DS-Y2-G1": "DS-INS-05",
+      "DS-Y2-G2": "DS-INS-06",
+      "DS-Y2-G3": "DS-INS-05",
+      "DS-Y2-G4": "DS-PRO-01",
+      "DS-Y2-G5": "DS-PRO-04",
+      "DS-Y2-G6": "DS-PRO-05",
+      "DS-Y2-G7": "DS-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y2-03",
+    "code": "DS203",
+    "name": "Visualization Studio",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "cohort_id": "DS-Y2",
+    "student_count": 158,
+    "lecture_teacher_id": "DS-PRO-01",
+    "practical_teacher_by_group": {
+      "DS-Y2-G1": "DS-INS-02",
+      "DS-Y2-G2": "DS-INS-03",
+      "DS-Y2-G3": "DS-INS-04",
+      "DS-Y2-G4": "DS-INS-06",
+      "DS-Y2-G5": "DS-INS-05",
+      "DS-Y2-G6": "DS-PRO-04",
+      "DS-Y2-G7": "DS-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y2-04",
+    "code": "DS204",
+    "name": "Time Series Analysis",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "cohort_id": "DS-Y2",
+    "student_count": 158,
+    "lecture_teacher_id": "DS-PRO-02",
+    "practical_teacher_by_group": {
+      "DS-Y2-G1": "DS-INS-01",
+      "DS-Y2-G2": "DS-PRO-03",
+      "DS-Y2-G3": "DS-INS-02",
+      "DS-Y2-G4": "DS-INS-03",
+      "DS-Y2-G5": "DS-INS-04",
+      "DS-Y2-G6": "DS-INS-06",
+      "DS-Y2-G7": "DS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y2-05",
+    "code": "DS205",
+    "name": "Optimization Models",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "cohort_id": "DS-Y2",
+    "student_count": 158,
+    "lecture_teacher_id": "DS-PRO-04",
+    "practical_teacher_by_group": {
+      "DS-Y2-G1": "DS-PRO-05",
+      "DS-Y2-G2": "DS-INS-01",
+      "DS-Y2-G3": "DS-PRO-03",
+      "DS-Y2-G4": "DS-INS-02",
+      "DS-Y2-G5": "DS-INS-03",
+      "DS-Y2-G6": "DS-INS-04",
+      "DS-Y2-G7": "DS-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 30
+  },
+  {
+    "id": "DS-Y3-01",
+    "code": "DS301",
+    "name": "Deep Learning Systems",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "cohort_id": "DS-Y3",
+    "student_count": 131,
+    "lecture_teacher_id": "DS-PRO-01",
+    "practical_teacher_by_group": {
+      "DS-Y3-G1": "DS-INS-05",
+      "DS-Y3-G2": "DS-PRO-02",
+      "DS-Y3-G3": "DS-PRO-05",
+      "DS-Y3-G4": "DS-INS-01",
+      "DS-Y3-G5": "DS-PRO-03",
+      "DS-Y3-G6": "DS-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "DS-Y3-02",
+    "code": "DS302",
+    "name": "MLOps Platform Engineering",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "cohort_id": "DS-Y3",
+    "student_count": 131,
+    "lecture_teacher_id": "DS-PRO-04",
+    "practical_teacher_by_group": {
+      "DS-Y3-G1": "DS-INS-03",
+      "DS-Y3-G2": "DS-INS-04",
+      "DS-Y3-G3": "DS-INS-06",
+      "DS-Y3-G4": "DS-INS-05",
+      "DS-Y3-G5": "DS-PRO-02",
+      "DS-Y3-G6": "DS-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "DS-Y3-03",
+    "code": "DS303",
+    "name": "Streaming Data Pipelines",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "cohort_id": "DS-Y3",
+    "student_count": 131,
+    "lecture_teacher_id": "DS-PRO-01",
+    "practical_teacher_by_group": {
+      "DS-Y3-G1": "DS-INS-01",
+      "DS-Y3-G2": "DS-PRO-03",
+      "DS-Y3-G3": "DS-INS-02",
+      "DS-Y3-G4": "DS-INS-03",
+      "DS-Y3-G5": "DS-INS-04",
+      "DS-Y3-G6": "DS-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "DS-Y3-04",
+    "code": "DS304",
+    "name": "Responsible AI",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "cohort_id": "DS-Y3",
+    "student_count": 131,
+    "lecture_teacher_id": "DS-PRO-02",
+    "practical_teacher_by_group": {
+      "DS-Y3-G1": "DS-INS-05",
+      "DS-Y3-G2": "DS-PRO-05",
+      "DS-Y3-G3": "DS-INS-01",
+      "DS-Y3-G4": "DS-INS-05",
+      "DS-Y3-G5": "DS-PRO-04",
+      "DS-Y3-G6": "DS-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 30
+  },
+  {
+    "id": "DS-Y3-05",
+    "code": "DS305",
+    "name": "Decision Intelligence Studio",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "cohort_id": "DS-Y3",
+    "student_count": 131,
+    "lecture_teacher_id": "DS-PRO-03",
+    "practical_teacher_by_group": {
+      "DS-Y3-G1": "DS-INS-02",
+      "DS-Y3-G2": "DS-INS-03",
+      "DS-Y3-G3": "DS-INS-04",
+      "DS-Y3-G4": "DS-INS-06",
+      "DS-Y3-G5": "DS-INS-01",
+      "DS-Y3-G6": "DS-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CYB-Y1-01",
+    "code": "CYB101",
+    "name": "Security Foundations",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "cohort_id": "CYB-Y1",
+    "student_count": 161,
+    "lecture_teacher_id": "CYB-PRO-01",
+    "practical_teacher_by_group": {
+      "CYB-Y1-G1": "CYB-INS-01",
+      "CYB-Y1-G2": "CYB-INS-02",
+      "CYB-Y1-G3": "CYB-INS-03",
+      "CYB-Y1-G4": "CYB-INS-04",
+      "CYB-Y1-G5": "CYB-INS-05",
+      "CYB-Y1-G6": "CYB-INS-06",
+      "CYB-Y1-G7": "CYB-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 30
+  },
+  {
+    "id": "CYB-Y1-02",
+    "code": "CYB102",
+    "name": "Linux Administration",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "cohort_id": "CYB-Y1",
+    "student_count": 161,
+    "lecture_teacher_id": "CYB-PRO-03",
+    "practical_teacher_by_group": {
+      "CYB-Y1-G1": "CYB-PRO-04",
+      "CYB-Y1-G2": "CYB-PRO-05",
+      "CYB-Y1-G3": "CYB-INS-01",
+      "CYB-Y1-G4": "CYB-INS-02",
+      "CYB-Y1-G5": "CYB-INS-03",
+      "CYB-Y1-G6": "CYB-INS-04",
+      "CYB-Y1-G7": "CYB-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CYB-Y1-03",
+    "code": "CYB103",
+    "name": "Network Defense Basics",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "cohort_id": "CYB-Y1",
+    "student_count": 161,
+    "lecture_teacher_id": "CYB-PRO-02",
+    "practical_teacher_by_group": {
+      "CYB-Y1-G1": "CYB-INS-06",
+      "CYB-Y1-G2": "CYB-PRO-04",
+      "CYB-Y1-G3": "CYB-PRO-05",
+      "CYB-Y1-G4": "CYB-INS-06",
+      "CYB-Y1-G5": "CYB-INS-01",
+      "CYB-Y1-G6": "CYB-INS-02",
+      "CYB-Y1-G7": "CYB-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CYB-Y1-04",
+    "code": "CYB104",
+    "name": "Secure Programming",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "cohort_id": "CYB-Y1",
+    "student_count": 161,
+    "lecture_teacher_id": "CYB-PRO-04",
+    "practical_teacher_by_group": {
+      "CYB-Y1-G1": "CYB-INS-04",
+      "CYB-Y1-G2": "CYB-INS-05",
+      "CYB-Y1-G3": "CYB-PRO-05",
+      "CYB-Y1-G4": "CYB-INS-06",
+      "CYB-Y1-G5": "CYB-PRO-01",
+      "CYB-Y1-G6": "CYB-PRO-03",
+      "CYB-Y1-G7": "CYB-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CYB-Y1-05",
+    "code": "CYB105",
+    "name": "Cryptography I",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "cohort_id": "CYB-Y1",
+    "student_count": 161,
+    "lecture_teacher_id": "CYB-PRO-02",
+    "practical_teacher_by_group": {
+      "CYB-Y1-G1": "CYB-INS-02",
+      "CYB-Y1-G2": "CYB-INS-03",
+      "CYB-Y1-G3": "CYB-INS-04",
+      "CYB-Y1-G4": "CYB-INS-05",
+      "CYB-Y1-G5": "CYB-PRO-05",
+      "CYB-Y1-G6": "CYB-INS-06",
+      "CYB-Y1-G7": "CYB-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "CYB-Y2-01",
+    "code": "CYB201",
+    "name": "Penetration Testing",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "cohort_id": "CYB-Y2",
+    "student_count": 135,
+    "lecture_teacher_id": "CYB-PRO-01",
+    "practical_teacher_by_group": {
+      "CYB-Y2-G1": "CYB-INS-03",
+      "CYB-Y2-G2": "CYB-PRO-03",
+      "CYB-Y2-G3": "CYB-INS-04",
+      "CYB-Y2-G4": "CYB-INS-05",
+      "CYB-Y2-G5": "CYB-PRO-05",
+      "CYB-Y2-G6": "CYB-INS-01",
+      "CYB-Y2-G7": "CYB-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "CYB-Y2-02",
+    "code": "CYB202",
+    "name": "Digital Forensics",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "cohort_id": "CYB-Y2",
+    "student_count": 135,
+    "lecture_teacher_id": "CYB-PRO-04",
+    "practical_teacher_by_group": {
+      "CYB-Y2-G1": "CYB-INS-06",
+      "CYB-Y2-G2": "CYB-INS-03",
+      "CYB-Y2-G3": "CYB-PRO-03",
+      "CYB-Y2-G4": "CYB-INS-01",
+      "CYB-Y2-G5": "CYB-INS-04",
+      "CYB-Y2-G6": "CYB-INS-05",
+      "CYB-Y2-G7": "CYB-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "CYB-Y2-03",
+    "code": "CYB203",
+    "name": "Identity and Access Management",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "cohort_id": "CYB-Y2",
+    "student_count": 135,
+    "lecture_teacher_id": "CYB-PRO-02",
+    "practical_teacher_by_group": {
+      "CYB-Y2-G1": "CYB-INS-02",
+      "CYB-Y2-G2": "CYB-INS-06",
+      "CYB-Y2-G3": "CYB-PRO-01",
+      "CYB-Y2-G4": "CYB-INS-03",
+      "CYB-Y2-G5": "CYB-INS-02",
+      "CYB-Y2-G6": "CYB-INS-06",
+      "CYB-Y2-G7": "CYB-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "CYB-Y2-04",
+    "code": "CYB204",
+    "name": "Cloud Security",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "cohort_id": "CYB-Y2",
+    "student_count": 135,
+    "lecture_teacher_id": "CYB-PRO-05",
+    "practical_teacher_by_group": {
+      "CYB-Y2-G1": "CYB-INS-01",
+      "CYB-Y2-G2": "CYB-INS-04",
+      "CYB-Y2-G3": "CYB-INS-05",
+      "CYB-Y2-G4": "CYB-PRO-01",
+      "CYB-Y2-G5": "CYB-PRO-04",
+      "CYB-Y2-G6": "CYB-INS-03",
+      "CYB-Y2-G7": "CYB-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "CYB-Y2-05",
+    "code": "CYB205",
+    "name": "Security Operations Center Lab",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "cohort_id": "CYB-Y2",
+    "student_count": 135,
+    "lecture_teacher_id": "CYB-PRO-03",
+    "practical_teacher_by_group": {
+      "CYB-Y2-G1": "CYB-INS-06",
+      "CYB-Y2-G2": "CYB-INS-01",
+      "CYB-Y2-G3": "CYB-INS-04",
+      "CYB-Y2-G4": "CYB-INS-05",
+      "CYB-Y2-G5": "CYB-PRO-01",
+      "CYB-Y2-G6": "CYB-PRO-04",
+      "CYB-Y2-G7": "CYB-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "CYB-Y3-01",
+    "code": "CYB301",
+    "name": "Industrial Control Security",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "cohort_id": "CYB-Y3",
+    "student_count": 127,
+    "lecture_teacher_id": "CYB-PRO-02",
+    "practical_teacher_by_group": {
+      "CYB-Y3-G1": "CYB-INS-02",
+      "CYB-Y3-G2": "CYB-INS-06",
+      "CYB-Y3-G3": "CYB-INS-01",
+      "CYB-Y3-G4": "CYB-INS-04",
+      "CYB-Y3-G5": "CYB-INS-05",
+      "CYB-Y3-G6": "CYB-PRO-01",
+      "CYB-Y3-G7": "CYB-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "CYB-Y3-02",
+    "code": "CYB302",
+    "name": "Threat Intelligence",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "cohort_id": "CYB-Y3",
+    "student_count": 127,
+    "lecture_teacher_id": "CYB-PRO-05",
+    "practical_teacher_by_group": {
+      "CYB-Y3-G1": "CYB-INS-03",
+      "CYB-Y3-G2": "CYB-INS-02",
+      "CYB-Y3-G3": "CYB-PRO-03",
+      "CYB-Y3-G4": "CYB-INS-06",
+      "CYB-Y3-G5": "CYB-INS-03",
+      "CYB-Y3-G6": "CYB-INS-02",
+      "CYB-Y3-G7": "CYB-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 22
+  },
+  {
+    "id": "CYB-Y3-03",
+    "code": "CYB303",
+    "name": "Incident Response Workshop",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "cohort_id": "CYB-Y3",
+    "student_count": 127,
+    "lecture_teacher_id": "CYB-PRO-01",
+    "practical_teacher_by_group": {
+      "CYB-Y3-G1": "CYB-INS-04",
+      "CYB-Y3-G2": "CYB-INS-05",
+      "CYB-Y3-G3": "CYB-PRO-03",
+      "CYB-Y3-G4": "CYB-PRO-04",
+      "CYB-Y3-G5": "CYB-PRO-02",
+      "CYB-Y3-G6": "CYB-INS-06",
+      "CYB-Y3-G7": "CYB-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "CYB-Y3-04",
+    "code": "CYB304",
+    "name": "Advanced Cryptography",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "cohort_id": "CYB-Y3",
+    "student_count": 127,
+    "lecture_teacher_id": "CYB-PRO-03",
+    "practical_teacher_by_group": {
+      "CYB-Y3-G1": "CYB-INS-02",
+      "CYB-Y3-G2": "CYB-INS-01",
+      "CYB-Y3-G3": "CYB-INS-02",
+      "CYB-Y3-G4": "CYB-INS-04",
+      "CYB-Y3-G5": "CYB-INS-05",
+      "CYB-Y3-G6": "CYB-PRO-04",
+      "CYB-Y3-G7": "CYB-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 26
+  },
+  {
+    "id": "CYB-Y3-05",
+    "code": "CYB305",
+    "name": "Secure Systems Integration",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "cohort_id": "CYB-Y3",
+    "student_count": 127,
+    "lecture_teacher_id": "CYB-PRO-02",
+    "practical_teacher_by_group": {
+      "CYB-Y3-G1": "CYB-INS-01",
+      "CYB-Y3-G2": "CYB-INS-06",
+      "CYB-Y3-G3": "CYB-INS-03",
+      "CYB-Y3-G4": "CYB-INS-02",
+      "CYB-Y3-G5": "CYB-INS-04",
+      "CYB-Y3-G6": "CYB-INS-05",
+      "CYB-Y3-G7": "CYB-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 22
+  },
+  {
+    "id": "SWE-Y1-01",
+    "code": "SWE101",
+    "name": "Object Oriented Programming",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "cohort_id": "SWE-Y1",
+    "student_count": 173,
+    "lecture_teacher_id": "SWE-PRO-01",
+    "practical_teacher_by_group": {
+      "SWE-Y1-G1": "SWE-INS-01",
+      "SWE-Y1-G2": "SWE-INS-02",
+      "SWE-Y1-G3": "SWE-INS-03",
+      "SWE-Y1-G4": "SWE-INS-04",
+      "SWE-Y1-G5": "SWE-INS-05",
+      "SWE-Y1-G6": "SWE-INS-06",
+      "SWE-Y1-G7": "SWE-PRO-02",
+      "SWE-Y1-G8": "SWE-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 26
+  },
+  {
+    "id": "SWE-Y1-02",
+    "code": "SWE102",
+    "name": "Requirements Engineering",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "cohort_id": "SWE-Y1",
+    "student_count": 173,
+    "lecture_teacher_id": "SWE-PRO-04",
+    "practical_teacher_by_group": {
+      "SWE-Y1-G1": "SWE-PRO-05",
+      "SWE-Y1-G2": "SWE-INS-01",
+      "SWE-Y1-G3": "SWE-INS-02",
+      "SWE-Y1-G4": "SWE-INS-03",
+      "SWE-Y1-G5": "SWE-INS-04",
+      "SWE-Y1-G6": "SWE-INS-05",
+      "SWE-Y1-G7": "SWE-INS-06",
+      "SWE-Y1-G8": "SWE-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 30
+  },
+  {
+    "id": "SWE-Y1-03",
+    "code": "SWE103",
+    "name": "Software Testing Basics",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "cohort_id": "SWE-Y1",
+    "student_count": 173,
+    "lecture_teacher_id": "SWE-PRO-03",
+    "practical_teacher_by_group": {
+      "SWE-Y1-G1": "SWE-PRO-05",
+      "SWE-Y1-G2": "SWE-PRO-05",
+      "SWE-Y1-G3": "SWE-PRO-01",
+      "SWE-Y1-G4": "SWE-PRO-04",
+      "SWE-Y1-G5": "SWE-INS-01",
+      "SWE-Y1-G6": "SWE-INS-02",
+      "SWE-Y1-G7": "SWE-INS-03",
+      "SWE-Y1-G8": "SWE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y1-04",
+    "code": "SWE104",
+    "name": "User Experience Design",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "cohort_id": "SWE-Y1",
+    "student_count": 173,
+    "lecture_teacher_id": "SWE-PRO-02",
+    "practical_teacher_by_group": {
+      "SWE-Y1-G1": "SWE-INS-05",
+      "SWE-Y1-G2": "SWE-INS-06",
+      "SWE-Y1-G3": "SWE-PRO-05",
+      "SWE-Y1-G4": "SWE-PRO-01",
+      "SWE-Y1-G5": "SWE-PRO-04",
+      "SWE-Y1-G6": "SWE-INS-01",
+      "SWE-Y1-G7": "SWE-INS-02",
+      "SWE-Y1-G8": "SWE-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y1-05",
+    "code": "SWE105",
+    "name": "Version Control and Tooling",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "cohort_id": "SWE-Y1",
+    "student_count": 173,
+    "lecture_teacher_id": "SWE-PRO-03",
+    "practical_teacher_by_group": {
+      "SWE-Y1-G1": "SWE-INS-04",
+      "SWE-Y1-G2": "SWE-INS-05",
+      "SWE-Y1-G3": "SWE-INS-06",
+      "SWE-Y1-G4": "SWE-INS-04",
+      "SWE-Y1-G5": "SWE-PRO-05",
+      "SWE-Y1-G6": "SWE-PRO-01",
+      "SWE-Y1-G7": "SWE-PRO-04",
+      "SWE-Y1-G8": "SWE-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y2-01",
+    "code": "SWE201",
+    "name": "Architecture Patterns",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "cohort_id": "SWE-Y2",
+    "student_count": 164,
+    "lecture_teacher_id": "SWE-PRO-05",
+    "practical_teacher_by_group": {
+      "SWE-Y2-G1": "SWE-INS-02",
+      "SWE-Y2-G2": "SWE-INS-03",
+      "SWE-Y2-G3": "SWE-INS-05",
+      "SWE-Y2-G4": "SWE-INS-06",
+      "SWE-Y2-G5": "SWE-INS-04",
+      "SWE-Y2-G6": "SWE-PRO-02",
+      "SWE-Y2-G7": "SWE-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 28
+  },
+  {
+    "id": "SWE-Y2-02",
+    "code": "SWE202",
+    "name": "Backend Engineering",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "cohort_id": "SWE-Y2",
+    "student_count": 164,
+    "lecture_teacher_id": "SWE-PRO-04",
+    "practical_teacher_by_group": {
+      "SWE-Y2-G1": "SWE-INS-01",
+      "SWE-Y2-G2": "SWE-INS-02",
+      "SWE-Y2-G3": "SWE-INS-03",
+      "SWE-Y2-G4": "SWE-INS-05",
+      "SWE-Y2-G5": "SWE-INS-06",
+      "SWE-Y2-G6": "SWE-INS-04",
+      "SWE-Y2-G7": "SWE-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y2-03",
+    "code": "SWE203",
+    "name": "Frontend Systems",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "cohort_id": "SWE-Y2",
+    "student_count": 164,
+    "lecture_teacher_id": "SWE-PRO-01",
+    "practical_teacher_by_group": {
+      "SWE-Y2-G1": "SWE-PRO-03",
+      "SWE-Y2-G2": "SWE-INS-01",
+      "SWE-Y2-G3": "SWE-INS-02",
+      "SWE-Y2-G4": "SWE-INS-03",
+      "SWE-Y2-G5": "SWE-INS-05",
+      "SWE-Y2-G6": "SWE-INS-06",
+      "SWE-Y2-G7": "SWE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y2-04",
+    "code": "SWE204",
+    "name": "DevOps Foundations",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "cohort_id": "SWE-Y2",
+    "student_count": 164,
+    "lecture_teacher_id": "SWE-PRO-02",
+    "practical_teacher_by_group": {
+      "SWE-Y2-G1": "SWE-PRO-05",
+      "SWE-Y2-G2": "SWE-PRO-03",
+      "SWE-Y2-G3": "SWE-PRO-04",
+      "SWE-Y2-G4": "SWE-PRO-05",
+      "SWE-Y2-G5": "SWE-INS-01",
+      "SWE-Y2-G6": "SWE-INS-02",
+      "SWE-Y2-G7": "SWE-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y2-05",
+    "code": "SWE205",
+    "name": "Quality Engineering Studio",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "cohort_id": "SWE-Y2",
+    "student_count": 164,
+    "lecture_teacher_id": "SWE-PRO-03",
+    "practical_teacher_by_group": {
+      "SWE-Y2-G1": "SWE-INS-05",
+      "SWE-Y2-G2": "SWE-INS-06",
+      "SWE-Y2-G3": "SWE-INS-04",
+      "SWE-Y2-G4": "SWE-PRO-01",
+      "SWE-Y2-G5": "SWE-PRO-04",
+      "SWE-Y2-G6": "SWE-PRO-05",
+      "SWE-Y2-G7": "SWE-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y3-01",
+    "code": "SWE301",
+    "name": "Distributed Product Development",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "cohort_id": "SWE-Y3",
+    "student_count": 143,
+    "lecture_teacher_id": "SWE-PRO-02",
+    "practical_teacher_by_group": {
+      "SWE-Y3-G1": "SWE-INS-02",
+      "SWE-Y3-G2": "SWE-INS-03",
+      "SWE-Y3-G3": "SWE-INS-05",
+      "SWE-Y3-G4": "SWE-INS-06",
+      "SWE-Y3-G5": "SWE-INS-04",
+      "SWE-Y3-G6": "SWE-PRO-01",
+      "SWE-Y3-G7": "SWE-PRO-04",
+      "SWE-Y3-G8": "SWE-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "SWE-Y3-02",
+    "code": "SWE302",
+    "name": "Enterprise Integration",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "cohort_id": "SWE-Y3",
+    "student_count": 143,
+    "lecture_teacher_id": "SWE-PRO-03",
+    "practical_teacher_by_group": {
+      "SWE-Y3-G1": "SWE-INS-01",
+      "SWE-Y3-G2": "SWE-INS-02",
+      "SWE-Y3-G3": "SWE-INS-03",
+      "SWE-Y3-G4": "SWE-INS-05",
+      "SWE-Y3-G5": "SWE-INS-06",
+      "SWE-Y3-G6": "SWE-INS-04",
+      "SWE-Y3-G7": "SWE-INS-01",
+      "SWE-Y3-G8": "SWE-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y3-03",
+    "code": "SWE303",
+    "name": "Software Project Management",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "cohort_id": "SWE-Y3",
+    "student_count": 143,
+    "lecture_teacher_id": "SWE-PRO-01",
+    "practical_teacher_by_group": {
+      "SWE-Y3-G1": "SWE-INS-03",
+      "SWE-Y3-G2": "SWE-PRO-04",
+      "SWE-Y3-G3": "SWE-PRO-05",
+      "SWE-Y3-G4": "SWE-INS-05",
+      "SWE-Y3-G5": "SWE-INS-06",
+      "SWE-Y3-G6": "SWE-INS-01",
+      "SWE-Y3-G7": "SWE-INS-02",
+      "SWE-Y3-G8": "SWE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 30
+  },
+  {
+    "id": "SWE-Y3-04",
+    "code": "SWE304",
+    "name": "Cloud Native Applications",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "cohort_id": "SWE-Y3",
+    "student_count": 143,
+    "lecture_teacher_id": "SWE-PRO-04",
+    "practical_teacher_by_group": {
+      "SWE-Y3-G1": "SWE-INS-03",
+      "SWE-Y3-G2": "SWE-PRO-02",
+      "SWE-Y3-G3": "SWE-PRO-05",
+      "SWE-Y3-G4": "SWE-INS-05",
+      "SWE-Y3-G5": "SWE-INS-06",
+      "SWE-Y3-G6": "SWE-INS-01",
+      "SWE-Y3-G7": "SWE-INS-02",
+      "SWE-Y3-G8": "SWE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "SWE-Y3-05",
+    "code": "SWE305",
+    "name": "Graduation Design Studio",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "cohort_id": "SWE-Y3",
+    "student_count": 143,
+    "lecture_teacher_id": "SWE-PRO-02",
+    "practical_teacher_by_group": {
+      "SWE-Y3-G1": "SWE-INS-03",
+      "SWE-Y3-G2": "SWE-PRO-05",
+      "SWE-Y3-G3": "SWE-PRO-03",
+      "SWE-Y3-G4": "SWE-INS-05",
+      "SWE-Y3-G5": "SWE-INS-06",
+      "SWE-Y3-G6": "SWE-INS-01",
+      "SWE-Y3-G7": "SWE-INS-02",
+      "SWE-Y3-G8": "SWE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "BAN-Y1-01",
+    "code": "BAN101",
+    "name": "Microeconomics for Analysts",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "cohort_id": "BAN-Y1",
+    "student_count": 130,
+    "lecture_teacher_id": "BAN-PRO-01",
+    "practical_teacher_by_group": {
+      "BAN-Y1-G1": "BAN-INS-01",
+      "BAN-Y1-G2": "BAN-INS-02",
+      "BAN-Y1-G3": "BAN-INS-03",
+      "BAN-Y1-G4": "BAN-INS-04",
+      "BAN-Y1-G5": "BAN-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 34
+  },
+  {
+    "id": "BAN-Y1-02",
+    "code": "BAN102",
+    "name": "Accounting Data Models",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "cohort_id": "BAN-Y1",
+    "student_count": 130,
+    "lecture_teacher_id": "BAN-PRO-02",
+    "practical_teacher_by_group": {
+      "BAN-Y1-G1": "BAN-INS-06",
+      "BAN-Y1-G2": "BAN-PRO-03",
+      "BAN-Y1-G3": "BAN-PRO-04",
+      "BAN-Y1-G4": "BAN-PRO-05",
+      "BAN-Y1-G5": "BAN-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 26
+  },
+  {
+    "id": "BAN-Y1-03",
+    "code": "BAN103",
+    "name": "Spreadsheet Engineering",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "cohort_id": "BAN-Y1",
+    "student_count": 130,
+    "lecture_teacher_id": "BAN-PRO-03",
+    "practical_teacher_by_group": {
+      "BAN-Y1-G1": "BAN-PRO-04",
+      "BAN-Y1-G2": "BAN-PRO-05",
+      "BAN-Y1-G3": "BAN-INS-01",
+      "BAN-Y1-G4": "BAN-INS-02",
+      "BAN-Y1-G5": "BAN-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "BAN-Y1-04",
+    "code": "BAN104",
+    "name": "Statistics for Business",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "cohort_id": "BAN-Y1",
+    "student_count": 130,
+    "lecture_teacher_id": "BAN-PRO-04",
+    "practical_teacher_by_group": {
+      "BAN-Y1-G1": "BAN-INS-04",
+      "BAN-Y1-G2": "BAN-INS-05",
+      "BAN-Y1-G3": "BAN-INS-06",
+      "BAN-Y1-G4": "BAN-PRO-05",
+      "BAN-Y1-G5": "BAN-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 34
+  },
+  {
+    "id": "BAN-Y1-05",
+    "code": "BAN105",
+    "name": "Process Mapping",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "cohort_id": "BAN-Y1",
+    "student_count": 130,
+    "lecture_teacher_id": "BAN-PRO-01",
+    "practical_teacher_by_group": {
+      "BAN-Y1-G1": "BAN-INS-02",
+      "BAN-Y1-G2": "BAN-INS-03",
+      "BAN-Y1-G3": "BAN-PRO-02",
+      "BAN-Y1-G4": "BAN-INS-04",
+      "BAN-Y1-G5": "BAN-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "BAN-Y2-01",
+    "code": "BAN201",
+    "name": "Managerial Finance Analytics",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "cohort_id": "BAN-Y2",
+    "student_count": 127,
+    "lecture_teacher_id": "BAN-PRO-05",
+    "practical_teacher_by_group": {
+      "BAN-Y2-G1": "BAN-INS-06",
+      "BAN-Y2-G2": "BAN-INS-02",
+      "BAN-Y2-G3": "BAN-INS-03",
+      "BAN-Y2-G4": "BAN-PRO-02",
+      "BAN-Y2-G5": "BAN-PRO-03",
+      "BAN-Y2-G6": "BAN-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 32
+  },
+  {
+    "id": "BAN-Y2-02",
+    "code": "BAN202",
+    "name": "Predictive Business Models",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "cohort_id": "BAN-Y2",
+    "student_count": 127,
+    "lecture_teacher_id": "BAN-PRO-02",
+    "practical_teacher_by_group": {
+      "BAN-Y2-G1": "BAN-INS-04",
+      "BAN-Y2-G2": "BAN-INS-05",
+      "BAN-Y2-G3": "BAN-INS-06",
+      "BAN-Y2-G4": "BAN-INS-02",
+      "BAN-Y2-G5": "BAN-INS-03",
+      "BAN-Y2-G6": "BAN-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BAN-Y2-03",
+    "code": "BAN203",
+    "name": "Supply Chain Planning",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "cohort_id": "BAN-Y2",
+    "student_count": 127,
+    "lecture_teacher_id": "BAN-PRO-04",
+    "practical_teacher_by_group": {
+      "BAN-Y2-G1": "BAN-INS-01",
+      "BAN-Y2-G2": "BAN-INS-04",
+      "BAN-Y2-G3": "BAN-INS-05",
+      "BAN-Y2-G4": "BAN-INS-06",
+      "BAN-Y2-G5": "BAN-INS-02",
+      "BAN-Y2-G6": "BAN-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 26
+  },
+  {
+    "id": "BAN-Y2-04",
+    "code": "BAN204",
+    "name": "Operations Management",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "cohort_id": "BAN-Y2",
+    "student_count": 127,
+    "lecture_teacher_id": "BAN-PRO-03",
+    "practical_teacher_by_group": {
+      "BAN-Y2-G1": "BAN-PRO-01",
+      "BAN-Y2-G2": "BAN-INS-01",
+      "BAN-Y2-G3": "BAN-INS-04",
+      "BAN-Y2-G4": "BAN-INS-05",
+      "BAN-Y2-G5": "BAN-INS-06",
+      "BAN-Y2-G6": "BAN-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 30
+  },
+  {
+    "id": "BAN-Y2-05",
+    "code": "BAN205",
+    "name": "Dashboard Development",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "cohort_id": "BAN-Y2",
+    "student_count": 127,
+    "lecture_teacher_id": "BAN-PRO-05",
+    "practical_teacher_by_group": {
+      "BAN-Y2-G1": "BAN-INS-03",
+      "BAN-Y2-G2": "BAN-PRO-01",
+      "BAN-Y2-G3": "BAN-INS-01",
+      "BAN-Y2-G4": "BAN-INS-04",
+      "BAN-Y2-G5": "BAN-INS-05",
+      "BAN-Y2-G6": "BAN-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BAN-Y3-01",
+    "code": "BAN301",
+    "name": "Revenue Management",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "cohort_id": "BAN-Y3",
+    "student_count": 119,
+    "lecture_teacher_id": "BAN-PRO-02",
+    "practical_teacher_by_group": {
+      "BAN-Y3-G1": "BAN-INS-02",
+      "BAN-Y3-G2": "BAN-PRO-04",
+      "BAN-Y3-G3": "BAN-INS-03",
+      "BAN-Y3-G4": "BAN-INS-02",
+      "BAN-Y3-G5": "BAN-PRO-01",
+      "BAN-Y3-G6": "BAN-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 30
+  },
+  {
+    "id": "BAN-Y3-02",
+    "code": "BAN302",
+    "name": "Strategy Simulation Lab",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "cohort_id": "BAN-Y3",
+    "student_count": 119,
+    "lecture_teacher_id": "BAN-PRO-03",
+    "practical_teacher_by_group": {
+      "BAN-Y3-G1": "BAN-INS-04",
+      "BAN-Y3-G2": "BAN-INS-05",
+      "BAN-Y3-G3": "BAN-PRO-04",
+      "BAN-Y3-G4": "BAN-INS-06",
+      "BAN-Y3-G5": "BAN-INS-03",
+      "BAN-Y3-G6": "BAN-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "BAN-Y3-03",
+    "code": "BAN303",
+    "name": "Customer Intelligence",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "cohort_id": "BAN-Y3",
+    "student_count": 119,
+    "lecture_teacher_id": "BAN-PRO-01",
+    "practical_teacher_by_group": {
+      "BAN-Y3-G1": "BAN-PRO-05",
+      "BAN-Y3-G2": "BAN-INS-01",
+      "BAN-Y3-G3": "BAN-INS-04",
+      "BAN-Y3-G4": "BAN-INS-05",
+      "BAN-Y3-G5": "BAN-PRO-04",
+      "BAN-Y3-G6": "BAN-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BAN-Y3-04",
+    "code": "BAN304",
+    "name": "Process Mining",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "cohort_id": "BAN-Y3",
+    "student_count": 119,
+    "lecture_teacher_id": "BAN-PRO-02",
+    "practical_teacher_by_group": {
+      "BAN-Y3-G1": "BAN-INS-03",
+      "BAN-Y3-G2": "BAN-INS-02",
+      "BAN-Y3-G3": "BAN-PRO-05",
+      "BAN-Y3-G4": "BAN-INS-01",
+      "BAN-Y3-G5": "BAN-INS-03",
+      "BAN-Y3-G6": "BAN-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BAN-Y3-05",
+    "code": "BAN305",
+    "name": "Consulting Capstone",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "cohort_id": "BAN-Y3",
+    "student_count": 119,
+    "lecture_teacher_id": "BAN-PRO-03",
+    "practical_teacher_by_group": {
+      "BAN-Y3-G1": "BAN-INS-04",
+      "BAN-Y3-G2": "BAN-INS-05",
+      "BAN-Y3-G3": "BAN-PRO-04",
+      "BAN-Y3-G4": "BAN-PRO-05",
+      "BAN-Y3-G5": "BAN-INS-01",
+      "BAN-Y3-G6": "BAN-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "ELE-Y1-01",
+    "code": "ELE101",
+    "name": "Circuit Theory",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "cohort_id": "ELE-Y1",
+    "student_count": 144,
+    "lecture_teacher_id": "ELE-PRO-01",
+    "practical_teacher_by_group": {
+      "ELE-Y1-G1": "ELE-INS-01",
+      "ELE-Y1-G2": "ELE-INS-02",
+      "ELE-Y1-G3": "ELE-INS-03",
+      "ELE-Y1-G4": "ELE-INS-04",
+      "ELE-Y1-G5": "ELE-INS-05",
+      "ELE-Y1-G6": "ELE-INS-06",
+      "ELE-Y1-G7": "ELE-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "ELE-Y1-02",
+    "code": "ELE102",
+    "name": "Mathematics for Engineers",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "cohort_id": "ELE-Y1",
+    "student_count": 144,
+    "lecture_teacher_id": "ELE-PRO-03",
+    "practical_teacher_by_group": {
+      "ELE-Y1-G1": "ELE-PRO-04",
+      "ELE-Y1-G2": "ELE-PRO-05",
+      "ELE-Y1-G3": "ELE-INS-01",
+      "ELE-Y1-G4": "ELE-INS-02",
+      "ELE-Y1-G5": "ELE-INS-03",
+      "ELE-Y1-G6": "ELE-INS-04",
+      "ELE-Y1-G7": "ELE-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 32
+  },
+  {
+    "id": "ELE-Y1-03",
+    "code": "ELE103",
+    "name": "Programming for Embedded Systems",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "cohort_id": "ELE-Y1",
+    "student_count": 144,
+    "lecture_teacher_id": "ELE-PRO-02",
+    "practical_teacher_by_group": {
+      "ELE-Y1-G1": "ELE-INS-06",
+      "ELE-Y1-G2": "ELE-PRO-04",
+      "ELE-Y1-G3": "ELE-PRO-05",
+      "ELE-Y1-G4": "ELE-INS-06",
+      "ELE-Y1-G5": "ELE-PRO-04",
+      "ELE-Y1-G6": "ELE-PRO-05",
+      "ELE-Y1-G7": "ELE-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "ELE-Y1-04",
+    "code": "ELE104",
+    "name": "Digital Logic",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "cohort_id": "ELE-Y1",
+    "student_count": 144,
+    "lecture_teacher_id": "ELE-PRO-03",
+    "practical_teacher_by_group": {
+      "ELE-Y1-G1": "ELE-INS-01",
+      "ELE-Y1-G2": "ELE-INS-02",
+      "ELE-Y1-G3": "ELE-INS-03",
+      "ELE-Y1-G4": "ELE-INS-04",
+      "ELE-Y1-G5": "ELE-INS-05",
+      "ELE-Y1-G6": "ELE-INS-06",
+      "ELE-Y1-G7": "ELE-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "ELE-Y1-05",
+    "code": "ELE105",
+    "name": "Physics of Devices",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "cohort_id": "ELE-Y1",
+    "student_count": 144,
+    "lecture_teacher_id": "ELE-PRO-05",
+    "practical_teacher_by_group": {
+      "ELE-Y1-G1": "ELE-PRO-01",
+      "ELE-Y1-G2": "ELE-PRO-02",
+      "ELE-Y1-G3": "ELE-PRO-01",
+      "ELE-Y1-G4": "ELE-INS-01",
+      "ELE-Y1-G5": "ELE-INS-02",
+      "ELE-Y1-G6": "ELE-INS-03",
+      "ELE-Y1-G7": "ELE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 22
+  },
+  {
+    "id": "ELE-Y2-01",
+    "code": "ELE201",
+    "name": "Signals and Systems",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "cohort_id": "ELE-Y2",
+    "student_count": 139,
+    "lecture_teacher_id": "ELE-PRO-04",
+    "practical_teacher_by_group": {
+      "ELE-Y2-G1": "ELE-INS-05",
+      "ELE-Y2-G2": "ELE-INS-06",
+      "ELE-Y2-G3": "ELE-PRO-02",
+      "ELE-Y2-G4": "ELE-PRO-01",
+      "ELE-Y2-G5": "ELE-INS-01",
+      "ELE-Y2-G6": "ELE-INS-02",
+      "ELE-Y2-G7": "ELE-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 22
+  },
+  {
+    "id": "ELE-Y2-02",
+    "code": "ELE202",
+    "name": "Power Electronics",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "cohort_id": "ELE-Y2",
+    "student_count": 139,
+    "lecture_teacher_id": "ELE-PRO-03",
+    "practical_teacher_by_group": {
+      "ELE-Y2-G1": "ELE-INS-04",
+      "ELE-Y2-G2": "ELE-INS-05",
+      "ELE-Y2-G3": "ELE-INS-06",
+      "ELE-Y2-G4": "ELE-PRO-02",
+      "ELE-Y2-G5": "ELE-PRO-05",
+      "ELE-Y2-G6": "ELE-PRO-01",
+      "ELE-Y2-G7": "ELE-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "ELE-Y2-03",
+    "code": "ELE203",
+    "name": "Control Engineering",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "cohort_id": "ELE-Y2",
+    "student_count": 139,
+    "lecture_teacher_id": "ELE-PRO-02",
+    "practical_teacher_by_group": {
+      "ELE-Y2-G1": "ELE-INS-02",
+      "ELE-Y2-G2": "ELE-INS-03",
+      "ELE-Y2-G3": "ELE-INS-04",
+      "ELE-Y2-G4": "ELE-INS-05",
+      "ELE-Y2-G5": "ELE-INS-06",
+      "ELE-Y2-G6": "ELE-PRO-04",
+      "ELE-Y2-G7": "ELE-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "ELE-Y2-04",
+    "code": "ELE204",
+    "name": "Measurement Systems",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "cohort_id": "ELE-Y2",
+    "student_count": 139,
+    "lecture_teacher_id": "ELE-PRO-01",
+    "practical_teacher_by_group": {
+      "ELE-Y2-G1": "ELE-INS-01",
+      "ELE-Y2-G2": "ELE-INS-02",
+      "ELE-Y2-G3": "ELE-INS-03",
+      "ELE-Y2-G4": "ELE-PRO-03",
+      "ELE-Y2-G5": "ELE-INS-04",
+      "ELE-Y2-G6": "ELE-INS-05",
+      "ELE-Y2-G7": "ELE-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "ELE-Y2-05",
+    "code": "ELE205",
+    "name": "Industrial Networking",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "cohort_id": "ELE-Y2",
+    "student_count": 139,
+    "lecture_teacher_id": "ELE-PRO-04",
+    "practical_teacher_by_group": {
+      "ELE-Y2-G1": "ELE-PRO-05",
+      "ELE-Y2-G2": "ELE-INS-01",
+      "ELE-Y2-G3": "ELE-INS-02",
+      "ELE-Y2-G4": "ELE-INS-03",
+      "ELE-Y2-G5": "ELE-PRO-03",
+      "ELE-Y2-G6": "ELE-PRO-05",
+      "ELE-Y2-G7": "ELE-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "ELE-Y3-01",
+    "code": "ELE301",
+    "name": "Smart Grid Platforms",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "cohort_id": "ELE-Y3",
+    "student_count": 107,
+    "lecture_teacher_id": "ELE-PRO-02",
+    "practical_teacher_by_group": {
+      "ELE-Y3-G1": "ELE-INS-05",
+      "ELE-Y3-G2": "ELE-INS-01",
+      "ELE-Y3-G3": "ELE-INS-02",
+      "ELE-Y3-G4": "ELE-INS-03",
+      "ELE-Y3-G5": "ELE-INS-06",
+      "ELE-Y3-G6": "ELE-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "ELE-Y3-02",
+    "code": "ELE302",
+    "name": "Robotics Control",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "cohort_id": "ELE-Y3",
+    "student_count": 107,
+    "lecture_teacher_id": "ELE-PRO-03",
+    "practical_teacher_by_group": {
+      "ELE-Y3-G1": "ELE-PRO-05",
+      "ELE-Y3-G2": "ELE-INS-04",
+      "ELE-Y3-G3": "ELE-INS-05",
+      "ELE-Y3-G4": "ELE-INS-01",
+      "ELE-Y3-G5": "ELE-INS-02",
+      "ELE-Y3-G6": "ELE-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "ELE-Y3-03",
+    "code": "ELE303",
+    "name": "PCB Design Studio",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "cohort_id": "ELE-Y3",
+    "student_count": 107,
+    "lecture_teacher_id": "ELE-PRO-04",
+    "practical_teacher_by_group": {
+      "ELE-Y3-G1": "ELE-INS-06",
+      "ELE-Y3-G2": "ELE-PRO-01",
+      "ELE-Y3-G3": "ELE-PRO-05",
+      "ELE-Y3-G4": "ELE-INS-04",
+      "ELE-Y3-G5": "ELE-PRO-02",
+      "ELE-Y3-G6": "ELE-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "electronics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "ELE-Y3-04",
+    "code": "ELE304",
+    "name": "IoT Integration",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "cohort_id": "ELE-Y3",
+    "student_count": 107,
+    "lecture_teacher_id": "ELE-PRO-03",
+    "practical_teacher_by_group": {
+      "ELE-Y3-G1": "ELE-INS-01",
+      "ELE-Y3-G2": "ELE-INS-02",
+      "ELE-Y3-G3": "ELE-INS-03",
+      "ELE-Y3-G4": "ELE-INS-06",
+      "ELE-Y3-G5": "ELE-PRO-01",
+      "ELE-Y3-G6": "ELE-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 22
+  },
+  {
+    "id": "ELE-Y3-05",
+    "code": "ELE305",
+    "name": "Engineering Project Lab",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "cohort_id": "ELE-Y3",
+    "student_count": 107,
+    "lecture_teacher_id": "ELE-PRO-01",
+    "practical_teacher_by_group": {
+      "ELE-Y3-G1": "ELE-INS-04",
+      "ELE-Y3-G2": "ELE-INS-01",
+      "ELE-Y3-G3": "ELE-INS-02",
+      "ELE-Y3-G4": "ELE-INS-03",
+      "ELE-Y3-G5": "ELE-INS-06",
+      "ELE-Y3-G6": "ELE-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y1-01",
+    "code": "MEC101",
+    "name": "Engineering Mechanics",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "cohort_id": "MEC-Y1",
+    "student_count": 136,
+    "lecture_teacher_id": "MEC-PRO-01",
+    "practical_teacher_by_group": {
+      "MEC-Y1-G1": "MEC-INS-01",
+      "MEC-Y1-G2": "MEC-INS-02",
+      "MEC-Y1-G3": "MEC-INS-03",
+      "MEC-Y1-G4": "MEC-INS-04",
+      "MEC-Y1-G5": "MEC-INS-05",
+      "MEC-Y1-G6": "MEC-INS-06",
+      "MEC-Y1-G7": "MEC-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 22
+  },
+  {
+    "id": "MEC-Y1-02",
+    "code": "MEC102",
+    "name": "CAD Foundations",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "cohort_id": "MEC-Y1",
+    "student_count": 136,
+    "lecture_teacher_id": "MEC-PRO-03",
+    "practical_teacher_by_group": {
+      "MEC-Y1-G1": "MEC-PRO-04",
+      "MEC-Y1-G2": "MEC-PRO-05",
+      "MEC-Y1-G3": "MEC-INS-01",
+      "MEC-Y1-G4": "MEC-INS-02",
+      "MEC-Y1-G5": "MEC-INS-03",
+      "MEC-Y1-G6": "MEC-INS-04",
+      "MEC-Y1-G7": "MEC-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "MEC-Y1-03",
+    "code": "MEC103",
+    "name": "Materials Science",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "cohort_id": "MEC-Y1",
+    "student_count": 136,
+    "lecture_teacher_id": "MEC-PRO-02",
+    "practical_teacher_by_group": {
+      "MEC-Y1-G1": "MEC-INS-06",
+      "MEC-Y1-G2": "MEC-PRO-04",
+      "MEC-Y1-G3": "MEC-PRO-05",
+      "MEC-Y1-G4": "MEC-INS-06",
+      "MEC-Y1-G5": "MEC-INS-01",
+      "MEC-Y1-G6": "MEC-INS-02",
+      "MEC-Y1-G7": "MEC-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 22
+  },
+  {
+    "id": "MEC-Y1-04",
+    "code": "MEC104",
+    "name": "Manufacturing Basics",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "cohort_id": "MEC-Y1",
+    "student_count": 136,
+    "lecture_teacher_id": "MEC-PRO-04",
+    "practical_teacher_by_group": {
+      "MEC-Y1-G1": "MEC-INS-04",
+      "MEC-Y1-G2": "MEC-INS-05",
+      "MEC-Y1-G3": "MEC-PRO-05",
+      "MEC-Y1-G4": "MEC-INS-06",
+      "MEC-Y1-G5": "MEC-PRO-01",
+      "MEC-Y1-G6": "MEC-PRO-03",
+      "MEC-Y1-G7": "MEC-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y1-05",
+    "code": "MEC105",
+    "name": "Technical Drawing",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "cohort_id": "MEC-Y1",
+    "student_count": 136,
+    "lecture_teacher_id": "MEC-PRO-02",
+    "practical_teacher_by_group": {
+      "MEC-Y1-G1": "MEC-INS-02",
+      "MEC-Y1-G2": "MEC-INS-03",
+      "MEC-Y1-G3": "MEC-INS-04",
+      "MEC-Y1-G4": "MEC-INS-05",
+      "MEC-Y1-G5": "MEC-PRO-05",
+      "MEC-Y1-G6": "MEC-INS-06",
+      "MEC-Y1-G7": "MEC-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "MEC-Y2-01",
+    "code": "MEC201",
+    "name": "Fluid Mechanics",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "cohort_id": "MEC-Y2",
+    "student_count": 126,
+    "lecture_teacher_id": "MEC-PRO-03",
+    "practical_teacher_by_group": {
+      "MEC-Y2-G1": "MEC-INS-01",
+      "MEC-Y2-G2": "MEC-INS-02",
+      "MEC-Y2-G3": "MEC-INS-03",
+      "MEC-Y2-G4": "MEC-PRO-04",
+      "MEC-Y2-G5": "MEC-INS-04",
+      "MEC-Y2-G6": "MEC-INS-05",
+      "MEC-Y2-G7": "MEC-PRO-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y2-02",
+    "code": "MEC202",
+    "name": "Thermal Engineering",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "cohort_id": "MEC-Y2",
+    "student_count": 126,
+    "lecture_teacher_id": "MEC-PRO-01",
+    "practical_teacher_by_group": {
+      "MEC-Y2-G1": "MEC-INS-06",
+      "MEC-Y2-G2": "MEC-INS-01",
+      "MEC-Y2-G3": "MEC-INS-02",
+      "MEC-Y2-G4": "MEC-INS-03",
+      "MEC-Y2-G5": "MEC-PRO-04",
+      "MEC-Y2-G6": "MEC-INS-04",
+      "MEC-Y2-G7": "MEC-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y2-03",
+    "code": "MEC203",
+    "name": "Machine Design",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "cohort_id": "MEC-Y2",
+    "student_count": 126,
+    "lecture_teacher_id": "MEC-PRO-05",
+    "practical_teacher_by_group": {
+      "MEC-Y2-G1": "MEC-PRO-02",
+      "MEC-Y2-G2": "MEC-INS-06",
+      "MEC-Y2-G3": "MEC-INS-01",
+      "MEC-Y2-G4": "MEC-INS-02",
+      "MEC-Y2-G5": "MEC-INS-03",
+      "MEC-Y2-G6": "MEC-PRO-04",
+      "MEC-Y2-G7": "MEC-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y2-04",
+    "code": "MEC204",
+    "name": "Manufacturing Automation",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "cohort_id": "MEC-Y2",
+    "student_count": 126,
+    "lecture_teacher_id": "MEC-PRO-02",
+    "practical_teacher_by_group": {
+      "MEC-Y2-G1": "MEC-INS-04",
+      "MEC-Y2-G2": "MEC-INS-05",
+      "MEC-Y2-G3": "MEC-INS-06",
+      "MEC-Y2-G4": "MEC-INS-01",
+      "MEC-Y2-G5": "MEC-INS-02",
+      "MEC-Y2-G6": "MEC-INS-03",
+      "MEC-Y2-G7": "MEC-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "MEC-Y2-05",
+    "code": "MEC205",
+    "name": "Simulation for Engineers",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "cohort_id": "MEC-Y2",
+    "student_count": 126,
+    "lecture_teacher_id": "MEC-PRO-01",
+    "practical_teacher_by_group": {
+      "MEC-Y2-G1": "MEC-PRO-03",
+      "MEC-Y2-G2": "MEC-INS-04",
+      "MEC-Y2-G3": "MEC-INS-05",
+      "MEC-Y2-G4": "MEC-PRO-05",
+      "MEC-Y2-G5": "MEC-PRO-03",
+      "MEC-Y2-G6": "MEC-INS-04",
+      "MEC-Y2-G7": "MEC-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 22
+  },
+  {
+    "id": "MEC-Y3-01",
+    "code": "MEC301",
+    "name": "Advanced CAD and PLM",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "cohort_id": "MEC-Y3",
+    "student_count": 99,
+    "lecture_teacher_id": "MEC-PRO-05",
+    "practical_teacher_by_group": {
+      "MEC-Y3-G1": "MEC-INS-06",
+      "MEC-Y3-G2": "MEC-INS-01",
+      "MEC-Y3-G3": "MEC-INS-02",
+      "MEC-Y3-G4": "MEC-INS-03",
+      "MEC-Y3-G5": "MEC-PRO-04",
+      "MEC-Y3-G6": "MEC-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "MEC-Y3-02",
+    "code": "MEC302",
+    "name": "Structural Analysis",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "cohort_id": "MEC-Y3",
+    "student_count": 99,
+    "lecture_teacher_id": "MEC-PRO-02",
+    "practical_teacher_by_group": {
+      "MEC-Y3-G1": "MEC-INS-04",
+      "MEC-Y3-G2": "MEC-INS-05",
+      "MEC-Y3-G3": "MEC-INS-06",
+      "MEC-Y3-G4": "MEC-INS-01",
+      "MEC-Y3-G5": "MEC-INS-02",
+      "MEC-Y3-G6": "MEC-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 18
+  },
+  {
+    "id": "MEC-Y3-03",
+    "code": "MEC303",
+    "name": "Industrial Robotics",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "cohort_id": "MEC-Y3",
+    "student_count": 99,
+    "lecture_teacher_id": "MEC-PRO-01",
+    "practical_teacher_by_group": {
+      "MEC-Y3-G1": "MEC-INS-04",
+      "MEC-Y3-G2": "MEC-INS-05",
+      "MEC-Y3-G3": "MEC-PRO-04",
+      "MEC-Y3-G4": "MEC-PRO-03",
+      "MEC-Y3-G5": "MEC-INS-06",
+      "MEC-Y3-G6": "MEC-INS-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "MEC-Y3-04",
+    "code": "MEC304",
+    "name": "Production Planning Studio",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "cohort_id": "MEC-Y3",
+    "student_count": 99,
+    "lecture_teacher_id": "MEC-PRO-05",
+    "practical_teacher_by_group": {
+      "MEC-Y3-G1": "MEC-INS-02",
+      "MEC-Y3-G2": "MEC-INS-03",
+      "MEC-Y3-G3": "MEC-INS-04",
+      "MEC-Y3-G4": "MEC-INS-05",
+      "MEC-Y3-G5": "MEC-PRO-04",
+      "MEC-Y3-G6": "MEC-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "MEC-Y3-05",
+    "code": "MEC305",
+    "name": "Mechanical Capstone Lab",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "cohort_id": "MEC-Y3",
+    "student_count": 99,
+    "lecture_teacher_id": "MEC-PRO-02",
+    "practical_teacher_by_group": {
+      "MEC-Y3-G1": "MEC-INS-06",
+      "MEC-Y3-G2": "MEC-INS-01",
+      "MEC-Y3-G3": "MEC-INS-02",
+      "MEC-Y3-G4": "MEC-INS-03",
+      "MEC-Y3-G5": "MEC-PRO-01",
+      "MEC-Y3-G6": "MEC-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "mechanics_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "BIO-Y1-01",
+    "code": "BIO101",
+    "name": "Molecular Biology for Computing",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "cohort_id": "BIO-Y1",
+    "student_count": 132,
+    "lecture_teacher_id": "BIO-PRO-01",
+    "practical_teacher_by_group": {
+      "BIO-Y1-G1": "BIO-INS-01",
+      "BIO-Y1-G2": "BIO-INS-02",
+      "BIO-Y1-G3": "BIO-INS-03",
+      "BIO-Y1-G4": "BIO-INS-04",
+      "BIO-Y1-G5": "BIO-INS-05",
+      "BIO-Y1-G6": "BIO-INS-06",
+      "BIO-Y1-G7": "BIO-PRO-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "biotech_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "BIO-Y1-02",
+    "code": "BIO102",
+    "name": "Programming for Life Sciences",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "cohort_id": "BIO-Y1",
+    "student_count": 132,
+    "lecture_teacher_id": "BIO-PRO-03",
+    "practical_teacher_by_group": {
+      "BIO-Y1-G1": "BIO-PRO-04",
+      "BIO-Y1-G2": "BIO-PRO-05",
+      "BIO-Y1-G3": "BIO-PRO-04",
+      "BIO-Y1-G4": "BIO-PRO-05",
+      "BIO-Y1-G5": "BIO-INS-01",
+      "BIO-Y1-G6": "BIO-INS-02",
+      "BIO-Y1-G7": "BIO-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BIO-Y1-03",
+    "code": "BIO103",
+    "name": "Biostatistics",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "cohort_id": "BIO-Y1",
+    "student_count": 132,
+    "lecture_teacher_id": "BIO-PRO-02",
+    "practical_teacher_by_group": {
+      "BIO-Y1-G1": "BIO-INS-04",
+      "BIO-Y1-G2": "BIO-INS-05",
+      "BIO-Y1-G3": "BIO-INS-06",
+      "BIO-Y1-G4": "BIO-PRO-04",
+      "BIO-Y1-G5": "BIO-PRO-05",
+      "BIO-Y1-G6": "BIO-INS-01",
+      "BIO-Y1-G7": "BIO-INS-02"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "seminar_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 28
+  },
+  {
+    "id": "BIO-Y1-04",
+    "code": "BIO104",
+    "name": "Genomics Data Foundations",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "cohort_id": "BIO-Y1",
+    "student_count": 132,
+    "lecture_teacher_id": "BIO-PRO-04",
+    "practical_teacher_by_group": {
+      "BIO-Y1-G1": "BIO-INS-03",
+      "BIO-Y1-G2": "BIO-INS-04",
+      "BIO-Y1-G3": "BIO-INS-05",
+      "BIO-Y1-G4": "BIO-INS-06",
+      "BIO-Y1-G5": "BIO-PRO-05",
+      "BIO-Y1-G6": "BIO-PRO-01",
+      "BIO-Y1-G7": "BIO-PRO-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BIO-Y1-05",
+    "code": "BIO105",
+    "name": "Laboratory Safety",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "cohort_id": "BIO-Y1",
+    "student_count": 132,
+    "lecture_teacher_id": "BIO-PRO-05",
+    "practical_teacher_by_group": {
+      "BIO-Y1-G1": "BIO-INS-01",
+      "BIO-Y1-G2": "BIO-INS-02",
+      "BIO-Y1-G3": "BIO-INS-03",
+      "BIO-Y1-G4": "BIO-INS-04",
+      "BIO-Y1-G5": "BIO-INS-05",
+      "BIO-Y1-G6": "BIO-INS-06",
+      "BIO-Y1-G7": "BIO-PRO-01"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "biotech_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "BIO-Y2-01",
+    "code": "BIO201",
+    "name": "Sequence Analysis",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "cohort_id": "BIO-Y2",
+    "student_count": 108,
+    "lecture_teacher_id": "BIO-PRO-03",
+    "practical_teacher_by_group": {
+      "BIO-Y2-G1": "BIO-PRO-02",
+      "BIO-Y2-G2": "BIO-INS-01",
+      "BIO-Y2-G3": "BIO-INS-02",
+      "BIO-Y2-G4": "BIO-INS-03",
+      "BIO-Y2-G5": "BIO-INS-04",
+      "BIO-Y2-G6": "BIO-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "even",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BIO-Y2-02",
+    "code": "BIO202",
+    "name": "Biological Databases",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "cohort_id": "BIO-Y2",
+    "student_count": 108,
+    "lecture_teacher_id": "BIO-PRO-02",
+    "practical_teacher_by_group": {
+      "BIO-Y2-G1": "BIO-INS-06",
+      "BIO-Y2-G2": "BIO-PRO-01",
+      "BIO-Y2-G3": "BIO-PRO-04",
+      "BIO-Y2-G4": "BIO-INS-01",
+      "BIO-Y2-G5": "BIO-INS-02",
+      "BIO-Y2-G6": "BIO-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 24
+  },
+  {
+    "id": "BIO-Y2-03",
+    "code": "BIO203",
+    "name": "Proteomics Methods",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "cohort_id": "BIO-Y2",
+    "student_count": 108,
+    "lecture_teacher_id": "BIO-PRO-05",
+    "practical_teacher_by_group": {
+      "BIO-Y2-G1": "BIO-INS-04",
+      "BIO-Y2-G2": "BIO-INS-05",
+      "BIO-Y2-G3": "BIO-INS-06",
+      "BIO-Y2-G4": "BIO-PRO-03",
+      "BIO-Y2-G5": "BIO-PRO-01",
+      "BIO-Y2-G6": "BIO-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "biotech_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "BIO-Y2-04",
+    "code": "BIO204",
+    "name": "Systems Biology",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "cohort_id": "BIO-Y2",
+    "student_count": 108,
+    "lecture_teacher_id": "BIO-PRO-02",
+    "practical_teacher_by_group": {
+      "BIO-Y2-G1": "BIO-INS-01",
+      "BIO-Y2-G2": "BIO-INS-02",
+      "BIO-Y2-G3": "BIO-INS-03",
+      "BIO-Y2-G4": "BIO-INS-04",
+      "BIO-Y2-G5": "BIO-INS-05",
+      "BIO-Y2-G6": "BIO-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "biotech_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "BIO-Y2-05",
+    "code": "BIO205",
+    "name": "Computational Chemistry",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "cohort_id": "BIO-Y2",
+    "student_count": 108,
+    "lecture_teacher_id": "BIO-PRO-03",
+    "practical_teacher_by_group": {
+      "BIO-Y2-G1": "BIO-PRO-01",
+      "BIO-Y2-G2": "BIO-PRO-04",
+      "BIO-Y2-G3": "BIO-INS-01",
+      "BIO-Y2-G4": "BIO-INS-02",
+      "BIO-Y2-G5": "BIO-INS-03",
+      "BIO-Y2-G6": "BIO-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "BIO-Y3-01",
+    "code": "BIO301",
+    "name": "Clinical Data Integration",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "cohort_id": "BIO-Y3",
+    "student_count": 87,
+    "lecture_teacher_id": "BIO-PRO-05",
+    "practical_teacher_by_group": {
+      "BIO-Y3-G1": "BIO-INS-05",
+      "BIO-Y3-G2": "BIO-INS-06",
+      "BIO-Y3-G3": "BIO-INS-05",
+      "BIO-Y3-G4": "BIO-PRO-01",
+      "BIO-Y3-G5": "BIO-PRO-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "odd",
+    "practical_group_size": 22
+  },
+  {
+    "id": "BIO-Y3-02",
+    "code": "BIO302",
+    "name": "Medical Imaging Analytics",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "cohort_id": "BIO-Y3",
+    "student_count": 87,
+    "lecture_teacher_id": "BIO-PRO-01",
+    "practical_teacher_by_group": {
+      "BIO-Y3-G1": "BIO-INS-06",
+      "BIO-Y3-G2": "BIO-INS-01",
+      "BIO-Y3-G3": "BIO-INS-02",
+      "BIO-Y3-G4": "BIO-INS-03",
+      "BIO-Y3-G5": "BIO-INS-04"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "computer_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 22
+  },
+  {
+    "id": "BIO-Y3-03",
+    "code": "BIO303",
+    "name": "Laboratory Automation",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "cohort_id": "BIO-Y3",
+    "student_count": 87,
+    "lecture_teacher_id": "BIO-PRO-02",
+    "practical_teacher_by_group": {
+      "BIO-Y3-G1": "BIO-INS-05",
+      "BIO-Y3-G2": "BIO-PRO-03",
+      "BIO-Y3-G3": "BIO-PRO-04",
+      "BIO-Y3-G4": "BIO-PRO-05",
+      "BIO-Y3-G5": "BIO-INS-06"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "biotech_lab"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 18
+  },
+  {
+    "id": "BIO-Y3-04",
+    "code": "BIO304",
+    "name": "Precision Medicine Workshop",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "cohort_id": "BIO-Y3",
+    "student_count": 87,
+    "lecture_teacher_id": "BIO-PRO-03",
+    "practical_teacher_by_group": {
+      "BIO-Y3-G1": "BIO-INS-01",
+      "BIO-Y3-G2": "BIO-INS-02",
+      "BIO-Y3-G3": "BIO-INS-03",
+      "BIO-Y3-G4": "BIO-INS-04",
+      "BIO-Y3-G5": "BIO-INS-05"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  },
+  {
+    "id": "BIO-Y3-05",
+    "code": "BIO305",
+    "name": "Bioinformatics Capstone",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "cohort_id": "BIO-Y3",
+    "student_count": 87,
+    "lecture_teacher_id": "BIO-PRO-04",
+    "practical_teacher_by_group": {
+      "BIO-Y3-G1": "BIO-PRO-05",
+      "BIO-Y3-G2": "BIO-INS-06",
+      "BIO-Y3-G3": "BIO-INS-01",
+      "BIO-Y3-G4": "BIO-INS-02",
+      "BIO-Y3-G5": "BIO-INS-03"
+    },
+    "lecture_room_features": [
+      "lecture_hall"
+    ],
+    "practical_room_features": [
+      "project_room"
+    ],
+    "lecture_blocks_per_week": 1,
+    "practical_frequency": "all",
+    "practical_group_size": 20
+  }
+]

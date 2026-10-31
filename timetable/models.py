@@ -245,6 +245,24 @@ class UniversityDataset:
     def load(cls, path: Path) -> UniversityDataset:
         return cls.from_dict(json.loads(path.read_text(encoding="utf-8")))
 
+    def save_split(self, directory: Path) -> None:
+        directory.mkdir(parents=True, exist_ok=True)
+        for name, value in (("teachers", self.teachers), ("rooms", self.rooms),
+                            ("cohorts", self.cohorts), ("study_groups", self.study_groups),
+                            ("courses", self.courses), ("meta", self.meta)):
+            payload = [asdict(item) for item in value] if name != "meta" else value
+            (directory / f"{name}.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+    @classmethod
+    def load_split(cls, directory: Path) -> UniversityDataset:
+        def read(name: str) -> Any:
+            return json.loads((directory / f"{name}.json").read_text(encoding="utf-8"))
+        return cls(teachers=[Teacher(**x) for x in read("teachers")],
+                   rooms=[Room(**x) for x in read("rooms")],
+                   cohorts=[Cohort(**x) for x in read("cohorts")],
+                   study_groups=[StudyGroup(**x) for x in read("study_groups")],
+                   courses=[Course(**x) for x in read("courses")], meta=read("meta"))
+
 
 def slot_for(day_code: str, block_index: int) -> TimeBlock:
     day_index = DAY_CODES.index(day_code)

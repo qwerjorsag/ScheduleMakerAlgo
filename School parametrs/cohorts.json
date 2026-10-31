@@ -1,0 +1,194 @@
+[
+  {
+    "id": "CS-Y1",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 1,
+    "size": 186,
+    "group_count": 8
+  },
+  {
+    "id": "CS-Y2",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 2,
+    "size": 178,
+    "group_count": 8
+  },
+  {
+    "id": "CS-Y3",
+    "program_id": "CS",
+    "program_name": "Computer Science",
+    "year": 3,
+    "size": 149,
+    "group_count": 7
+  },
+  {
+    "id": "DS-Y1",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 1,
+    "size": 171,
+    "group_count": 8
+  },
+  {
+    "id": "DS-Y2",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 2,
+    "size": 158,
+    "group_count": 7
+  },
+  {
+    "id": "DS-Y3",
+    "program_id": "DS",
+    "program_name": "Data Science",
+    "year": 3,
+    "size": 131,
+    "group_count": 6
+  },
+  {
+    "id": "CYB-Y1",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 1,
+    "size": 161,
+    "group_count": 7
+  },
+  {
+    "id": "CYB-Y2",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 2,
+    "size": 135,
+    "group_count": 7
+  },
+  {
+    "id": "CYB-Y3",
+    "program_id": "CYB",
+    "program_name": "Cyber Security",
+    "year": 3,
+    "size": 127,
+    "group_count": 7
+  },
+  {
+    "id": "SWE-Y1",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 1,
+    "size": 173,
+    "group_count": 8
+  },
+  {
+    "id": "SWE-Y2",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 2,
+    "size": 164,
+    "group_count": 7
+  },
+  {
+    "id": "SWE-Y3",
+    "program_id": "SWE",
+    "program_name": "Software Engineering",
+    "year": 3,
+    "size": 143,
+    "group_count": 8
+  },
+  {
+    "id": "BAN-Y1",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 1,
+    "size": 130,
+    "group_count": 5
+  },
+  {
+    "id": "BAN-Y2",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 2,
+    "size": 127,
+    "group_count": 6
+  },
+  {
+    "id": "BAN-Y3",
+    "program_id": "BAN",
+    "program_name": "Business Analytics",
+    "year": 3,
+    "size": 119,
+    "group_count": 6
+  },
+  {
+    "id": "ELE-Y1",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 1,
+    "size": 144,
+    "group_count": 7
+  },
+  {
+    "id": "ELE-Y2",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 2,
+    "size": 139,
+    "group_count": 7
+  },
+  {
+    "id": "ELE-Y3",
+    "program_id": "ELE",
+    "program_name": "Electrical Engineering",
+    "year": 3,
+    "size": 107,
+    "group_count": 6
+  },
+  {
+    "id": "MEC-Y1",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 1,
+    "size": 136,
+    "group_count": 7
+  },
+  {
+    "id": "MEC-Y2",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 2,
+    "size": 126,
+    "group_count": 7
+  },
+  {
+    "id": "MEC-Y3",
+    "program_id": "MEC",
+    "program_name": "Mechanical Engineering",
+    "year": 3,
+    "size": 99,
+    "group_count": 6
+  },
+  {
+    "id": "BIO-Y1",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 1,
+    "size": 132,
+    "group_count": 7
+  },
+  {
+    "id": "BIO-Y2",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 2,
+    "size": 108,
+    "group_count": 6
+  },
+  {
+    "id": "BIO-Y3",
+    "program_id": "BIO",
+    "program_name": "Bioinformatics",
+    "year": 3,
+    "size": 87,
+    "group_count": 5
+  }
+]
